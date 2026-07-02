@@ -4,7 +4,7 @@ on:
   schedule:
     # GitHub cron is in UTC. 23:00 UTC = 07:00 Asia/Taipei (next day).
     # Note: GitHub may delay scheduled runs by a few minutes.
-    - cron: "0 23 * * *"
+    - cron: "13 10 * * *"
   workflow_dispatch: {}   # lets you trigger a test run manually from the Actions tab
 
 permissions:
